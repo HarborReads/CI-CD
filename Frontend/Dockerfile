@@ -1,4 +1,4 @@
-# Define the base image
+# Define base image
 FROM node:latest
 
 # Set the working directory inside the container
@@ -20,4 +20,4 @@ RUN npm run build
 EXPOSE 5173
 
 # Start the app
-CMD ["npm", "run", "dev"]
+CMD ["npm", "start"]
