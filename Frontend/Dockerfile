@@ -1,8 +1,8 @@
-# Define the base image
+# Define base image
 FROM node:latest
 
 # Set the working directory inside the container
-WORKDIR /app
+WORKDIR /Frontend 
 
 # Copy package.json and package-lock.json to the working directory
 COPY package*.json ./
