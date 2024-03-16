@@ -2,7 +2,9 @@
 FROM node:latest
 
 # Define work directory
-WORKDIR /Backend
+WORKDIR /usr/src/app
+
+ENV HOST 0.0.0.0
 
 # Copy package.json and package-lock.json
 COPY package*.json ./
